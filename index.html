@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arun Sathish | Home</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font-awesome/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/semantic/semantic.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="ui container">
+
+    <h1 class="ui header myname">
+        Arun Sathish
+        <div class="sub header">Designer & Developer</div>
+    </h1>
+    <div class="ui content center aligned" >
+        <img class="ui small circular image" alt="Arun Photo" src="./img/arun-photo1.jpg" style="margin: 0 auto;">
+    </div>
+
+    <div class="ui secondary pointing menu">
+        <a class="active item">Work</a>
+        <a class="item" href="./info.html">Info</a>
+        <a class="item" href="./contact.html">Contact</a>
+    </div>
+
+
+    <div class="ui segment center aligned">
+        <h2 class="ui header">Domain</h2>
+
+        <h3 class="ui icon header" style="margin: 25px;"><i class="circular columns icon"></i>Web Application</h3>
+        <h3 class="ui icon header" style="margin: 25px;"><i class="circular pencil alternate icon"></i>Design & Illustration</h3>
+        <h3 class="ui icon header" style="margin: 25px;"><i class="circular film icon"></i>Animations</h3>
+
+    </div>
+
+    <div class="ui segment">
+        <h2 class="ui header center aligned">Web Application</h2>
+        <div class="ui card centered card" style="width: auto;">
+            <div class="content">
+                <h4 class="ui sub header">Projects</h4>
+                <div class="ui small feed">
+                    <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <p> 
+                            <a href="http://handshakedev.us-east-2.elasticbeanstalk.com ">HandShake WebApp:</a>
+                            There was a need to build a social networking system, that brings knowledgeable likeminded people together. People in the group can share the resource, information, have a discussion, and many more features with an organised and structured way.
+                            </p>
+                            <p> 
+                            Websites Developed:
+                            <a href="https://github.com/arunsathish/orphanage">Orphanage</a>,
+                            <a href="https://arunsathish.github.io/fictionalevents">Fictional Events</a><br>
+                            </p>
+                            <p class="center aligned">Note: Only Few Are Mentioned</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h4 class="ui sub header">Technology</h4>
+                <div class="ui small feed">
+                    <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Angular 2+</li>
+                                <li>PHP</li>
+                                <li>MEAN Stack (MongoDB, ExpressJS, Angular 2+, NodeJS)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ui segment">
+        <h2 class="ui header center aligned">Design & Illustration</h2>
+
+
+
+
+        <div class="ui modal">
+            <i class="close icon"></i>
+            <div class="header">
+                Hoodie design for CS Engineering
+            </div>
+            <div class="content">
+              <div class="ui image"><img src="./img/design/CSE_2019.jpg"></div> <br>
+              <div class="ui image"><img src="./img/design/CSE_Binary.jpg"></div>
+            </div>
+            <div class="actions">
+                <div class="description">
+                    <div class="ui header">Hoodie design for CS Engineering</div>
+                    <p>Hoodie Design for Final Year Engineering 2019.</p>
+                    <p>Tool - Adobe Illustrator</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui link cards" id="mymodel">
+            <div class="card">
+                <div class="image"><img src="./img/design/CSE_thumbnail.jpg"></div>
+                <div class="content">
+                    <div class="meta">Hoodie design for CS Engineering</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="ui segment">
+        <h2 class="ui header center aligned">Animation</h2>
+    </div> -->
+
+
+
+    <div class="footer">&copy; 2020 by Arun Sathish</div>
+</div>
+
+
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="css/semantic/semantic.min.js"></script>
+<script>
+    $("#mymodel").click(function(){
+        console.log("model clicked");
+        $('.ui.modal').modal('show');
+    });
+</script>
+
+</html>

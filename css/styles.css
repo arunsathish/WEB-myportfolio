@@ -1,0 +1,18 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eeeeee;
+}
+
+.ui.header.myname {
+    padding-top: 25px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+
+.ui.header .sub.header {
+    font-family: 'Lato', sans-serif;
+}
+
+.footer {
+    text-align: center;
+}

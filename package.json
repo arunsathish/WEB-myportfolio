@@ -1,0 +1,19 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunsathish/myportfolio.git"
+  },
+  "author": "Arun Sathish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunsathish/myportfolio/issues"
+  },
+  "homepage": "https://github.com/arunsathish/myportfolio#readme"
+}
