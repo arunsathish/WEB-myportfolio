@@ -13,6 +13,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.technology {
+    padding-left: 24px;
+}
+
 .footer {
     padding: 10px;
     padding-top: 70px;
