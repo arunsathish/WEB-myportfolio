@@ -103,37 +103,59 @@
         <h2 class="ui header center aligned">Design & Illustration</h2>
 
 
-
-
-        <div class="ui modal">
-            <i class="close icon"></i>
-            <div class="header">
-                Hoodie design for CS Engineering
-            </div>
-            <div class="content">
-              <div class="ui image"><img src="./img/design/CSE_2019.jpg"></div> <br>
-              <div class="ui image"><img src="./img/design/CSE_Binary.jpg"></div>
-            </div>
-            <div class="actions">
-                <div class="description">
-                    <div class="ui header">Hoodie design for CS Engineering</div>
-                    <p>Hoodie Design for Final Year Engineering 2019.</p>
-                    <p>Tool - Adobe Illustrator</p>
+        <div class="ui link centered cards">
+            <!-- HOODIE DESIGN -->
+            <div class="card" id="hoodiedesign_model">
+                <div class="image"><img src="./img/design/CSE_thumbnail.jpg"></div>
+                <div class="content">
+                    <div class="meta">Hoodie design for CS Engineering</div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="center aligned">
-            <div class="ui link cards" id="mymodel">
-                <div class="card">
-                    <div class="image"><img src="./img/design/CSE_thumbnail.jpg"></div>
-                    <div class="content">
-                        <div class="meta">Hoodie design for CS Engineering</div>
+            <div class="ui modal hoodiedesign_model">
+                <i class="close icon"></i>
+                <div class="header">
+                    Hoodie design for CS Engineering
+                </div>
+                <div class="content">
+                    <div class="ui image"><img src="./img/design/CSE_2019.jpg"></div> <br>
+                    <div class="ui image"><img src="./img/design/CSE_Binary.jpg"></div>
+                </div>
+                <div class="actions">
+                    <div class="description">
+                        <div class="ui header">Hoodie design for CS Engineering</div>
+                        <p>Hoodie Design for Final Year Engineering 2019.</p>
+                        <p>Tool - Adobe Illustrator</p>
                     </div>
                 </div>
             </div>
+
+
+            <!-- VISION BOARD -->
+            <div class="card" id="visionboard_model">
+                <div class="image"><img src="./img/design/vision_board_thumbnail.jpg"></div>
+                <div class="content">
+                    <div class="meta">Vision Board</div>
+                </div>
+            </div>
+            <div class="ui modal visionboard_model">
+                <i class="close icon"></i>
+                <div class="header">
+                    Vision Board
+                </div>
+                <div class="content">
+                    <div class="ui image"><img src="./img/design/vision_board.jpg"></div>
+                </div>
+                <div class="actions">
+                    <div class="description">
+                        <div class="ui header">Vision Board</div>
+                        <p>This is a vision board created for motivation</p>
+                        <p>Tool - Adobe Illustrator</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
+
             
     </div>
 
@@ -154,9 +176,11 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="css/semantic/semantic.min.js"></script>
 <script>
-    $("#mymodel").click(function(){
-        console.log("model clicked");
-        $('.ui.modal').modal('show');
+    $("#hoodiedesign_model").click(function(){
+        $('.ui.modal.hoodiedesign_model').modal('show');
+    });
+    $("#visionboard_model").click(function(){
+        $('.ui.modal.visionboard_model').modal('show');
     });
 </script>
 
