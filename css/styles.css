@@ -1,6 +1,16 @@
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #eeeeee;
+    font-family: 'Inter', sans-serif;
+    background-color: #e4efe5;
+}
+
+img {
+    pointer-events: none;
+}
+
+.logo-container {
+    user-select: none;
+    margin-top: 8px;
+    text-align: center;
 }
 
 .ui.small.circular.image {
